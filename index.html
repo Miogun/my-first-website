@@ -7,19 +7,32 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <nav class="navbar">
+        <div class="nav-brand">Miogun</div>
+        <button class="nav-toggle">
+            <span class="hamburger"></span>
+        </button>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
         <h1>환영합니다!</h1>
         <p>이것은 제 첫 번째 GitHub Pages 웹사이트입니다.</p>
     </header>
     
     <main>
-        <section class="about">
+        <section id="about" class="about">
             <h2>About Me</h2>
             <p>안녕하세요! 저는 Shin Myung Ho입니다.</p>
             <p>이 웹사이트는 제 GitHub Pages를 이용한 첫 프로젝트입니다.</p>
         </section>
         
-        <section class="projects">
+        <section id="projects" class="projects">
             <h2>My Projects</h2>
             <div class="project-grid">
                 <div class="project-card">
@@ -31,6 +44,12 @@
                     <p>두 번째 프로젝트 설명...</p>
                 </div>
             </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>이메일: your.email@example.com</p>
+            <p>GitHub: <a href="https://github.com/Miogun" target="_blank">@Miogun</a></p>
         </section>
     </main>
     
